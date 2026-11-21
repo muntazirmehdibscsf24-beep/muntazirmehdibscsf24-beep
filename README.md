@@ -18,6 +18,8 @@ A full-stack application for managing employee records, with role-based access a
 
 A website for Royal Fitness Gym in Khairpur, Sindh, built with HTML, CSS, and JavaScript.
 
+[**View live demo**](https://royalfitness-iota.vercel.app/)
+
 [![Royal Fitness Gym website hero artwork](https://raw.githubusercontent.com/muntazirmehdibscsf24-beep/Royal-Fitness-Website/main/assets/hero_bg.png)](https://github.com/muntazirmehdibscsf24-beep/Royal-Fitness-Website)
 
 ## Technical skills
