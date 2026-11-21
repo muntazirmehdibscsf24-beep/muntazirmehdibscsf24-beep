@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title">
+<title id="title">Welcome to my profile — Muntazir Mehdi</title>
+<defs>
+  <radialGradient id="background" cx="50%" cy="46%" r="68%"><stop stop-color="#354439"/><stop offset=".66" stop-color="#202a22"/><stop offset="1" stop-color="#111813"/></radialGradient>
+  <linearGradient id="sage" x2="0" y2="1"><stop stop-color="#edf2dc"/><stop offset=".52" stop-color="#c1cfb0"/><stop offset="1" stop-color="#94a98b"/></linearGradient>
+  <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#a4b79a" opacity=".16"/></pattern>
+  <pattern id="scanlines" width="3" height="4" patternUnits="userSpaceOnUse"><path d="M0 .5H3" stroke="#111813" opacity=".3"/></pattern>
+  <pattern id="pixels" width="9" height="9" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="2" height="2" fill="#9aae91" opacity=".38"/></pattern>
+  <filter id="glow" x="-.3" y="-.6" width="1.6" height="2.2"><feGaussianBlur stdDeviation="7"/></filter>
+  <clipPath id="screen"><rect x="12" y="12" width="976" height="316" rx="18"/></clipPath>
+  <g id="rail" fill="none" stroke="#a3b798">
+    <path d="M54 65h32l20-20h105l12 12h102M55 275h33l20 20h100l14-14h106M44 96h34l14 14h31M44 245h34l14-14h31" opacity=".5"/>
+    <path d="M46 85h25l18-18h37m-80 188h25l18 18h37" opacity=".28"/>
+    <path d="M35 117V55l20-20h62M35 223v62l20 20h62" stroke-width="3"/>
+    <path d="M66 131v72m9-53v35m10-24v13" opacity=".54" stroke-width="3" stroke-dasharray="3 5"/>
+    <path d="M75 170h61M105 139v62" opacity=".45"/>
+    <path d="M105 148l22 22-22 22-22-22z" fill="#334334" stroke-width="2"/>
+    <path d="M105 158l12 12-12 12-12-12z" fill="#afc19f"/>
+    <circle cx="325" cy="57" r="3" fill="#c4d2b5"/><circle cx="328" cy="281" r="3" fill="#c4d2b5"/>
+  </g>
+  <style>
+    @keyframes glow {0%,100%{opacity:.42}50%{opacity:.94}}
+    @keyframes cursor {0%,100%{opacity:1}50%{opacity:.2}}
+    @keyframes sweep {from{transform:translateY(-36px)}to{transform:translateY(345px)}}
+    .halo{animation:glow 3s ease-in-out infinite}
+    .cursor{animation:cursor 1.4s step-end infinite}
+    .sweep{animation:sweep 7s linear infinite}
+    @media(prefers-reduced-motion:reduce){.halo,.cursor,.sweep{animation:none}.sweep{display:none}}
+  </style>
+</defs>
+<rect width="1000" height="340" rx="25" fill="#111813"/>
+<g clip-path="url(#screen)">
+  <rect x="12" y="12" width="976" height="316" fill="url(#background)"/>
+  <rect x="12" y="12" width="976" height="316" fill="url(#grid)"/>
+  <path d="M28 102h123v136H28zm821 0h123v136H849z" fill="url(#pixels)"/>
+  <rect class="sweep" x="12" y="1" width="976" height="22" fill="#d7e5cb" opacity=".075"/>
+</g>
+<rect x="12" y="12" width="976" height="316" rx="18" fill="none" stroke="#9bad8f" stroke-width="2"/>
+<rect x="23" y="23" width="954" height="294" rx="12" fill="none" stroke="#78906f" opacity=".68"/>
+<use href="#rail"/><use href="#rail" transform="translate(1000 0) scale(-1 1)"/>
+<path d="M349 61l14-15h274l14 15-14 15H363z" fill="#202b23" stroke="#71886c"/>
+<text x="500" y="67" text-anchor="middle" fill="#d2dec5" font-family="monospace" font-size="16" font-weight="700" letter-spacing="4">MUNTAZIR MEHDI</text>
+<g text-anchor="middle" font-family="monospace" font-weight="900">
+  <text class="halo" x="500" y="161" fill="#b1c79e" filter="url(#glow)" font-size="79" letter-spacing="7">WELCOME</text>
+  <text class="halo" x="500" y="224" fill="#b1c79e" filter="url(#glow)" font-size="49" letter-spacing="5">TO MY PROFILE</text>
+  <text x="500" y="161" fill="url(#sage)" stroke="#dce8cf" stroke-width=".7" font-size="79" letter-spacing="7">WELCOME</text>
+  <text x="500" y="224" fill="url(#sage)" font-size="49" letter-spacing="5">TO MY PROFILE</text>
+</g>
+<path d="M345 268h121l12 12h44l12-12h121" fill="none" stroke="#839a7a"/>
+<path d="M419 286h44m74 0h44" stroke="#61795c" stroke-dasharray="3 5"/>
+<rect class="cursor" x="489" y="262" width="22" height="7" fill="#d2dec5"/>
+<rect x="25" y="25" width="950" height="290" rx="11" fill="url(#scanlines)" opacity=".37"/>
+</svg>
