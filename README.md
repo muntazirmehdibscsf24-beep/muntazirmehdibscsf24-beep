@@ -1,4 +1,4 @@
-![Welcome to my profile](assets/arcade-welcome.svg)
+![Welcome to my profile](assets/sage-arcade-marquee.svg)
 
 # Muntazir Mehdi
 
