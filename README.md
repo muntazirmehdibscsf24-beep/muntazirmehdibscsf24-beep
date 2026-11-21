@@ -1,3 +1,5 @@
+![Welcome to my profile](assets/arcade-welcome.svg)
+
 # Muntazir Mehdi
 
 **Computer Science student · Sukkur IBA University**
